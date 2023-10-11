@@ -1,0 +1,31 @@
+/*New York Times recipes*/
+
+.modal_white-background__Y82PV {
+  background-color: unset;
+  z-index: -1;
+}
+
+.modal_modal-window-content-base__UUgNe {
+  height: 100%;
+}
+
+
+.modal_app-upsell-modal-wrapper__8sGvw, .modal_dunning-modal-wrapper__MR3Jm, .modal_newsletter-modal-wrapper__0b_PN, .modal_paywall-modal-wrapper__K5Xsm, .modal_regi-modal-wrapper__yasYP, .modal_search-filter-modal-wrapper__YeDZ9 {
+  display: none;
+}
+
+.modal_black-background__NLxQR {
+  display: none;
+  z-index: -6;
+}
+
+/*HBO Max*/
+
+.ZFZir {
+  display: none!important;
+}
+
+.dJkcvV {
+  background-color: white!important;
+
+}

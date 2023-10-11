@@ -1,0 +1,93 @@
+/*New York Times recipes*/
+
+.modal_white-background__Y82PV {
+  background-color: unset;
+  z-index: -1;
+}
+
+.modal_modal-window-content-base__UUgNe {
+  height: 100%;
+}
+
+
+.modal_app-upsell-modal-wrapper__8sGvw, .modal_dunning-modal-wrapper__MR3Jm, .modal_newsletter-modal-wrapper__0b_PN, .modal_paywall-modal-wrapper__K5Xsm, .modal_regi-modal-wrapper__yasYP, .modal_search-filter-modal-wrapper__YeDZ9 {
+  display: none;
+}
+
+.modal_black-background__NLxQR {
+  display: none;
+  z-index: -6;
+}
+
+/*HBO Max*/
+
+/*i think this is the bottom gradient*/
+
+.ZFZir {
+  display: none!important;
+}
+
+/*hides bottom gradient*/
+
+.iwrSRM {
+  display: none!important;
+}
+
+/*no idea*/
+
+.dJkcvV {
+  background-color: rgb(255, 255, 255) !important;
+
+}
+
+/*makes slider wrapper white and thin*/
+
+.bmKzyc {
+  background-color: rgb(255, 255, 255)!important;
+    height: 4px;
+}
+
+/*outline of play buttons*/
+
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+  stroke-width: 3px !important;
+}
+
+/*color of play buttons*/
+
+[data-darkreader-inline-fill] {
+  fill: #ca0b0b !important;
+}
+
+
+
+
+/*DISNEY PLUS*/
+
+/*hides top gradient*/
+
+/*.btm-media-player .btm-media-overlays-container .overlay__controls .controls__header {
+  display: none!important;
+ 
+}
+*/
+/*hides bottom gradient*/
+
+.btm-media-player .btm-media-overlays-container .overlay__controls .controls__footer:before {
+ background-image:none!important;
+}
+
+/*hides top gradient*/
+.btm-media-player .btm-media-overlays-container .overlay__controls .controls__header:before {
+ background-image: none!important;
+}
+
+
+/*APPLETV*/
+
+/*hide gradient*/
+
+.video-player__content .gradient {
+  background-image: none!important;
+}}

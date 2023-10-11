@@ -1,0 +1,59 @@
+/*makes stupid bottom gradient invisible*/
+
+ytu-player-controls.ytu-player-controller {
+    background: linear-gradient(180deg,transparent 100%,#000 90%);
+    
+}
+
+/*hides top stupid gradient*/
+.ypc-header-background.ytu-player-controller {
+  display:none;
+  
+}
+
+
+/*Hides gigantic show title entirely*/
+ytu-player-controls.ytu-player-controller .ypc-video-title-text.ytu-player-controller {
+    display: none;
+}
+
+
+/*Hides "DVR" icon in middle of screen*/
+.badge-container.ytu-text-badge {
+    display: none;
+}
+
+ 
+/*Hides solid grey bar obscurring bottom of screen*/
+.ypl-nav-bar.style-scope.ytu-player-layout {
+    display: none;
+}
+
+ytu-nav-bar {
+    display: none;
+   }
+
+/*Moves playback/skipping controls to bottom of screen*/
+.ypl-controls.ytu-player-layout, .ypl-full-controls.ytu-player-layout, .ypl-mini-controls.ytu-player-layout, .ypl-nav-bar.ytu-player-layout {
+    bottom: -40px;
+    
+}
+
+/*hides network logo from top-left*/
+.ypc-header-left.ytu-player-controller {
+    display: none;
+ 
+}
+
+/*hides "up next" in lower right*/
+
+ytu-up-next:not([mini]) .details.ytu-up-next {
+    min-width: 111px;
+    display: none;
+}
+
+/*hides episode info in lower-left*/
+
+ytu-player-controls.ytu-player-controller[size=x-large] .ypc-video-secondary-text.ytu-player-controller {
+    display: none;
+}

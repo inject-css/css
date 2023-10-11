@@ -1,0 +1,10 @@
+/*Hides YouTube ad-blocker dialog*/
+
+tp-yt-iron-overlay-backdrop.opened {
+   display: none !important;
+}
+
+tp-yt-paper-dialog[modern] {
+     display: none !important;
+}
+
